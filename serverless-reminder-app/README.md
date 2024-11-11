@@ -1,22 +1,25 @@
-# AWS Serverless Reminder Application
+# AWS Serverless Reminder Application 
 
-## Overview
-This project is a serverless reminder application built with AWS services, including S3, Lambda, API Gateway, Step Functions, SES, and SNS.
+## Purpose
+The goal was to learn about serverless architecture in AWS, including configuring Lambda functions, managing workflows with Step Functions, and using SNS for notifications.
 
-## Prerequisites
-- AWS Account
-- AWS CLI
-- Python
-- Node.js (optional, if using JavaScript in Lambda)
+## Learning Outcomes
+- **Lambda Functions**: Gained experience in writing and deploying Lambda functions to handle business logic.
+- **Step Functions**: Learned how to orchestrate AWS services with Step Functions for managing reminders.
+- **API Gateway**: Used API Gateway to expose endpoints for interacting with the reminder application.
+- **SES and SNS**: Configured notifications via SES (email) and SNS (SMS).
 
-## Getting Started
-1. Clone this repository.
-2. Deploy the CloudFormation template to set up resources in AWS.
-3. Configure Lambda functions and test the API Gateway endpoints.
+## Personal Reflections
+One of the challenges I faced was [describe a challenge you encountered]. To solve this, I [describe your solution].
 
-## Usage
-- **Set Reminder**: Call the API endpoint to set a reminder.
-- **Trigger Reminder**: Configure SNS to send an email or SMS based on the reminder set.
+> **Credit**: This project is based on a lab from [A Cloud Guru](https://acloudguru.com/).
 
-## Cleanup
-To avoid charges, delete all resources created by this project in your AWS account.
+## Repository Contents
+This repository includes:
+- My notes on the project architecture
+- Key takeaways from each step
+- Reflections on how serverless services interact within AWS
+
+##Cloud Guru Lab Project)
+
+This project is based on a hands-on lab by [A Cloud Guru](https://acloudguru.com/). It is a serverless reminder application built using AWS services: S3, Lambda, API Gateway, Step Functions, SES, and SNS. Completing this lab allowed me to understand how to architect and deploy a serverless solution in AWS.
