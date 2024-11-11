@@ -1,25 +1,21 @@
-# AWS Serverless Reminder Application 
+# AWS Serverless Reminder Application
 
-## Purpose
-The goal was to learn about serverless architecture in AWS, including configuring Lambda functions, managing workflows with Step Functions, and using SNS for notifications.
+## Overview
+This project is based on a hands-on lab from A Cloud Guru. It’s a serverless reminder application built using AWS services: S3, Lambda, API Gateway, Step Functions, SES, and SNS. Completing this lab helped me learn how to design and deploy serverless applications in AWS.
 
-## Learning Outcomes
-- **Lambda Functions**: Gained experience in writing and deploying Lambda functions to handle business logic.
-- **Step Functions**: Learned how to orchestrate AWS services with Step Functions for managing reminders.
-- **API Gateway**: Used API Gateway to expose endpoints for interacting with the reminder application.
-- **SES and SNS**: Configured notifications via SES (email) and SNS (SMS).
+## Project Details
+The application allows users to set reminders using a serverless architecture. It includes:
+- **AWS S3**: For storage.
+- **AWS Lambda**: To handle backend processing.
+- **API Gateway**: To expose endpoints for user interaction.
+- **Step Functions**: For managing workflows.
+- **SES and SNS**: For sending reminders via email and SMS.
 
-## Personal Reflections
-One of the challenges I faced was [describe a challenge you encountered]. To solve this, I [describe your solution].
+## Key Learnings
+- **Lambda Functions**: Wrote Lambda functions to handle reminders.
+- **API Gateway Integration**: Connected Lambda functions to HTTP endpoints.
+- **Step Functions**: Used Step Functions to automate the workflow.
+- **Notifications**: Configured SES for email reminders and SNS for SMS.
 
-> **Credit**: This project is based on a lab from [A Cloud Guru](https://acloudguru.com/).
-
-## Repository Contents
-This repository includes:
-- My notes on the project architecture
-- Key takeaways from each step
-- Reflections on how serverless services interact within AWS
-
-##Cloud Guru Lab Project)
-
-This project is based on a hands-on lab by [A Cloud Guru](https://acloudguru.com/). It is a serverless reminder application built using AWS services: S3, Lambda, API Gateway, Step Functions, SES, and SNS. Completing this lab allowed me to understand how to architect and deploy a serverless solution in AWS.
+## Credits
+This project was completed as part of an [A Cloud Guru](https://acloudguru.com/) lab.
